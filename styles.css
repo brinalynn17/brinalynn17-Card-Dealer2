@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: green;
+}
+.card {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* #suit{
+    font-size: 24px;
+    font-weight: bold;
+} */
+
+.value {
+    font-size: 50px;
+    font-weight: bold
+}
+.refreshButton{
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.suitTopLeft{
+    position: absolute;
+    top: 85px;
+    left: 375px;
+    font-size: 100px;
+    font-weight: bold;
+}
+.suitBottomRight{
+    position: absolute;
+    transform: rotate(180deg);
+    bottom: 0px;
+    right:515px;
+    font-size: 100px;
+    font-weight: bold;
+}
