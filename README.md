@@ -1,3 +1,6 @@
+https://brinalynn17.github.io/brinalynn17-Card-Dealer2/
+
+
 # brinalynn17-Card-Dealer
 Random Card Dealer in JavaScript, HTML and CSS
 In this project, you will learn how to change your website styles during the runtime using VanillaJS (plain normal js).
