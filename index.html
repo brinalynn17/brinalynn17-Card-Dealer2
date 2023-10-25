@@ -1,24 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
     <title>Card Dealer</title>
-    <link rel="stylesheet" href="./styles.css"
-    <script src="app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body onload="displayRandomCard">
-    <div class="container">
-    <div class="card">
-        <div class="suitTopLeft" id="suit"></div>
-        <p class="value" id="value"></p>
-         <div class="suitBottomRight" id="suit">X</div>
-        
+<body>
+    <div class="card" id="card">
+        <span class="suit top-left" id="top-left-suit"></span>
+        <span class="card-value" id="card-value"></span>
+        <span class="suit bottom-right" id="bottom-right-suit"></span>
     </div>
-</div>
-
-    <button class="refreshButton" id="refreshButton">Refresh Card</button>
+    <div>
+        <button class="generate-button" id="generate-button">New Card</button>
+    </div>
+   
     <script src="app.js"></script>
-
 </body>
 </html>
